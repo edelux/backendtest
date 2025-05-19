@@ -5,18 +5,6 @@ run-name: MS deploy
 on:
   workflow_dispatch:
 
-  push:
-    branches:
-      - 'fix/*'
-      - 'feat/*'
-      - 'feature/*'
-    paths-ignore:
-      - 'docs/**'
-      - '.github/**'
-      - '.gitignore'
-      - 'LICENSE'
-      - 'README.md'
-
 jobs:
   setup-env:
     environment: dev
