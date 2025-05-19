@@ -37,6 +37,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build/
 
 # Dependency directories
 node_modules/
@@ -127,6 +128,11 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # yarn v2
 .yarn/cache
@@ -134,3 +140,18 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+## MacOS
+.DS_Store
+
+# IDEs and editors
+.project
+.classpath
+.launch
+.c9/
+.settings/
+.sublime-workspace
+
+## tmp files
+~*
+*~
