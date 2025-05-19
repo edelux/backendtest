@@ -4,8 +4,8 @@ Este proyecto consiste en un frontend en Angular y un backend en NestJS que perm
 
 ## Estructura del proyecto
 
-- **FrontEndTest**: Frontend en Angular que contiene un formulario para capturar nombres y apellidos.
-- **BackEndTest**: Backend en NestJS que ofrece una API para saludar a las personas.
+- **frontendtest**: Frontend en Angular que contiene un formulario para capturar nombres y apellidos.
+- **backendtest**: Backend en NestJS que ofrece una API para saludar a las personas.
 
 ## Requisitos previos
 
@@ -19,25 +19,25 @@ Este proyecto consiste en un frontend en Angular y un backend en NestJS que perm
 
 1. Construir las imágenes:
 
-```bash
+```sh
 make build
 ```
 
 2. Iniciar los servicios:
 
-```bash
+```sh
 make run
 ```
 
 3. Para desarrollo:
 
-```bash
+```sh
 make run-dev
 ```
 
 4. Para detener los servicios:
 
-```bash
+```sh
 make stop
 ```
 
@@ -47,19 +47,19 @@ make stop
 
 1. Navegar a la carpeta del frontend:
 
-```bash
-cd FrontEndTest
+```sh
+cd frontendtest
 ```
 
 2. Instalar dependencias:
 
-```bash
+```sh
 npm install
 ```
 
 3. Iniciar el servidor de desarrollo:
 
-```bash
+```sh
 npm start
 ```
 
@@ -67,19 +67,19 @@ npm start
 
 1. Navegar a la carpeta del backend:
 
-```bash
-cd BackEndTest
+```sh
+cd backendtest
 ```
 
 2. Instalar dependencias:
 
-```bash
+```sh
 npm install
 ```
 
 3. Iniciar el servidor de desarrollo:
 
-```bash
+```sh
 npm run start:dev
 ```
 
@@ -87,26 +87,26 @@ npm run start:dev
 
 ### Frontend
 
-```bash
+```sh
 make test-frontend
 ```
 
 o
 
-```bash
+```sh
 cd FrontEndTest && npm test
 ```
 
 ### Backend
 
-```bash
+```sh
 make test-backend
 ```
 
 o
 
-```bash
-cd BackEndTest && npm test
+```sh
+cd backendtest && npm test
 ```
 
 ## Endpoints de la API
